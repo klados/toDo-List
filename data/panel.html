@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./bower_components/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./bower_components/bootstrap-theme.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="./panel.css">
+  </head>
+  <body >
+
+    <div class="container" >
+
+      <h2 id="h2">To Do List</h2>
+
+      <div id="warning_msg">No space left, please remove some tasks</div>
+
+      <div class="input-group">
+        <input type="text" class="form-control input-sm"  id="read_task" autofocus>
+        <span class="input-group-btn">
+          <button type="button" id="btn" class="btn btn-primary " ><span class="glyphicon glyphicon-plus">Add</span></button>
+        </span>
+      </div>
+      <br>
+
+      <div class="list-group" id="sortable">
+      </div>
+
+      <button class="btn btn-success" id="restore">Undo</button>
+      <div id='notification'>Your note has been copied to clipboard</div>
+    </div>
+
+  </body>
+</html>

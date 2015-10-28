@@ -1,0 +1,47 @@
+{
+  "title": "to Do List",
+  "name": "to_do_list",
+  "version": "0.0.13",
+  "icon" : "data/check-64.png",
+  "description": "Save your notes to your browser",
+  "main": "index.js",
+  "author": "George Klados",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "permissions": {
+	  "private-browsing": true
+	},
+  "preferences":[
+    {
+      "name":"bc",
+      "title":"Background color",
+      "description":"change the background color",
+      "type":"color",
+      "value":"#6692A5"
+    },
+    {
+      "name":"ic",
+      "title":"Item color",
+      "description":"change the item color",
+      "type":"color",
+      "value":"#F0FFFF"
+    },
+    {
+      "name":"btn",
+      "type":"control",
+      "label":"Set Default",
+      "title":"Load the default colors",
+      "description":"Default background color:#6692A5 \n default item color:#F0FFFF"
+    },
+    {
+      "name":"clear_btn",
+      "type":"control",
+      "label":"Clear",
+      "title":"Delete all the stored data",
+      "description":"Attention, all your stored data will be removed for ever"
+    }
+  ]
+}

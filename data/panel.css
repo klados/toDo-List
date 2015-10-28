@@ -1,0 +1,61 @@
+body{
+    /*background-color:#6692A5;*/
+    /*url("papyrus.jpg");*/
+}
+
+h2{
+    color:#33D685;
+}
+
+#btn{
+  /*float :right;*/
+}
+
+.list-group{
+  max-height :250px;
+  overflow:hidden;
+  overflow-y:auto;
+}
+
+.list-group-item{
+  /*background-color: #F0FFFF;*/
+  overflow-x:auto;
+}
+
+#warning_msg{
+    color:red;
+}
+
+#read_task{
+  /*border-color: #000000;*/
+}
+
+#checkbox{
+  float:left;
+  margin-right: 5px;
+}
+
+#clip_btn{
+    float:right;
+}
+
+#btn_rem{
+  float: right;
+}
+
+#icon_rem{
+  /*float: right;*/
+  /*margin-right: -6px;*/
+}
+
+.line-through {
+   text-decoration: line-through;
+ }
+
+#restore{
+  margin-right: -60px;
+}
+
+#notification{
+  color:red;
+}
