@@ -1,9 +1,10 @@
 How to run toDo List
 =====================
- 
- 
-### 1. Initialize an empty add-on template 
-    $ jpm init
+
+Download the addon from the official repo link(https://addons.mozilla.org/en-US/firefox/addon/to-do-list/) or download the source code and ...  
+
+### 1. Go to the rout folder of the project
+    $ cd toDo-List-master
     
 ### 2. Run a new instance of Firefox with the add-on 
     $ jpm  -b /bin/firefox run   
