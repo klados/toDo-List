@@ -6,10 +6,10 @@ How to run toDo List
     $ jpm init
     
 ### 2. Run a new instance of Firefox with the add-on 
-    ```$ jpm  -b /bin/firefox run```    
+    $ jpm  -b /bin/firefox run   
 
 ### 3. Package the add-on into an XPI file for distribution 
-    ```$ jpm xpi```
+    $ jpm xpi
     
     
  How to use toDo List
