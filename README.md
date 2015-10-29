@@ -1,14 +1,15 @@
 How to run toDo List
 =====================
- ##1. Initialize an empty add-on template
+ 
+ ## 1. Initialize an empty add-on template 
     ```$ jpm init```
- ##2. Run a new instance of Firefox with the add-on
+ ## 2. Run a new instance of Firefox with the add-on 
     ```$ jpm  -b /bin/firefox run```    
- ##3. Package the add-on into an XPI file for distribution
+ ## 3. Package the add-on into an XPI file for distribution
     ```$ jpm xpi```
     
- ![photo](data/check-64.png) How to use toDo List
--------------------------------------------
+ How to use toDo List
+=====================
 
 ### 1. Add new task
 ![addtask](http://snf-537850.vm.okeanos.grnet.gr/photos/toDoList/add.png) 
