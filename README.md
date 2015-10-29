@@ -1,7 +1,7 @@
 How to run toDo List
 =====================
 
-Download the addon from the official repo link[https://addons.mozilla.org/en-US/firefox/addon/to-do-list/] or download the source code and ...  
+Download the addon from the official repo [link](https://addons.mozilla.org/en-US/firefox/addon/to-do-list/) or download the source code and ...  
 
 ### 1. Go to the rout folder of the project
     $ cd toDo-List-master
